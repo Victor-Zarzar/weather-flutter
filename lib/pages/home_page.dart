@@ -181,11 +181,74 @@ class HomePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 5.0),
-                          child: Divider(
-                            color: DividerLine.primaryColor,
-                          ),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 5.0),
+                      child: Divider(
+                        color: DividerLine.primaryColor,
+                      ),
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          children: [
+                            Image.asset(
+                              'lib/assets/13.png',
+                              scale: 8,
+                            ),
+                            const SizedBox(height: 5),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Temp Max',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w300,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  '12ºC',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Image.asset(
+                              'lib/assets/14.png',
+                              scale: 8,
+                            ),
+                            const SizedBox(height: 5),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Temp Min',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w300,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  '12ºC',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
                       ],
                     ),
