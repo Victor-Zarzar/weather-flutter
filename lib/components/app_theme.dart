@@ -11,5 +11,13 @@ class AppTheme {
 class BackGround {
   BackGround._();
 
-  static Color get primaryColor => const Color(0xFFECEFF1);
+  static Color get primaryColor => const Color(0xFF000000);
+
+  static Color get secondaryColor => const Color(0x00000000);
+}
+
+class CircleColor {
+  CircleColor._();
+
+  static Color get primaryColor => const Color(0xFF673AB7);
 }
