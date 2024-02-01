@@ -20,4 +20,6 @@ class CircleColor {
   CircleColor._();
 
   static Color get primaryColor => const Color(0xFF673AB7);
+
+  static Color get secondaryColor => const Color(0xFFFFA000);
 }

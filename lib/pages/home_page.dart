@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:weather_flutter/components/app_theme.dart';
@@ -22,15 +24,41 @@ class HomePage extends StatelessWidget {
         child: Stack(
           children: [
             Align(
-              alignment: AlignmentDirectional(3, -0.3),
+              alignment: const AlignmentDirectional(5, -0.3),
               child: Container(
               height: 300,
               width: 300,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: CircleColor.primaryColor
+                color: CircleColor.primaryColor,
               ),
-
+              ),
+            ),
+              Align(
+              alignment: const AlignmentDirectional(-5, -0.3),
+              child: Container(
+              height: 300,
+              width: 300,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: CircleColor.primaryColor,
+              ),
+              ),
+            ),
+              Align(
+              alignment: const AlignmentDirectional(0, -1.4),
+              child: Container(
+              height: 300,
+              width: 600,
+              decoration: BoxDecoration(
+                color: CircleColor.secondaryColor,
+              ),
+              ),
+            ),
+            BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 100.0, sigmaY: 100.0),
+              child: Container(
+                decoration: BoxDecoration(color: BackGround.secondaryColor),
               ),
             ),
           ],
