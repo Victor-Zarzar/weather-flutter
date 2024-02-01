@@ -9,7 +9,7 @@
 
 ### Version iOS:
 
-<img src="" alt="home ios" width="250">
+<img src="lib/assets/homeios.png" alt="home ios" width="250">
 
 ### Version Android:
 
