@@ -31,3 +31,9 @@ class TextColor {
 
   static Color get secondaryColor => const Color(0x00000000);
 }
+
+class DividerLine {
+  DividerLine._();
+
+  static Color get primaryColor => const Color(0xFF9E9E9E);
+}

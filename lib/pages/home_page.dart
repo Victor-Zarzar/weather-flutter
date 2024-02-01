@@ -98,6 +98,97 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Center(
+                      child: Text(
+                        'THUNDERSTORM',
+                        style: TextStyle(
+                          color: TextColor.primaryColor,
+                          fontSize: 25,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    Center(
+                      child: Text(
+                        'Friday 16 • 09.41am',
+                        style: TextStyle(
+                          color: TextColor.primaryColor,
+                          fontSize: 25,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 30),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          children: [
+                            Image.asset(
+                              'lib/assets/11.png',
+                              scale: 8,
+                            ),
+                            const SizedBox(height: 5),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Sunrise',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w300,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  '5:34 am',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Image.asset(
+                              'lib/assets/12.png',
+                              scale: 8,
+                            ),
+                            const SizedBox(height: 5),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Sunset',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w300,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  '5:34 pm',
+                                  style: TextStyle(
+                                    color: TextColor.primaryColor,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 5.0),
+                          child: Divider(
+                            color: DividerLine.primaryColor,
+                          ),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
